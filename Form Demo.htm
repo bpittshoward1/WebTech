@@ -1,0 +1,35 @@
+<html> 
+<head> 
+		<title> Form Demo</title>
+</head>
+<body>
+
+	<form method="post" action= mailto:bpitthoward1@babson.edu enctype="text/plain">
+	<p> First Name:
+		<input type="text" name="lName" maxlength="100" size="20" value="enter first name here"/></p>
+	<p> Last Name:
+		<input type="password" name="lName" maxlength="100" size="20" value="enter last name here"/></p>
+	<p> What products do you own here (Select all that apply)?
+		<br/>
+		<input type="checkbox" name="Q1" value="Smartphone"> Smartphone <br/>
+		<input type="checkbox" name="Q1" value="PC"> PC <br/>
+		<input type="checkbox" name="Q1" value="MAC"> MAC <br/>
+		
+	</p>
+	<input type="submit" value="submit" name="submit"/>
+	<input type="reset" value="reset" name="reset"/>
+	<br/>
+	<p> In which state do you live? 
+		<select name="state">
+		<option value="MA"> MA</option>
+		<option value="ME"> ME</option>
+		<option value="NH"> NH</option>
+		</select>
+	</p>
+	
+	<textarea name="comments" rows="5" cols="29">Any further comments</textarea>
+		
+	
+	</form>
+</body>
+</html>
